@@ -34,7 +34,6 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-
 }
 .menu > ul > li {
     float: right;
@@ -72,3 +71,69 @@
 }
 
 /* Header Section */
+.cta {
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+.cta > h1 {
+    color: #291a41;
+    font-size: 40px;
+    font-weight: 500;
+}
+.cta > p {
+    color: #53546a;
+    font-size: 20px;
+    width: 600px;
+    display: inline-block;
+}
+.cta > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 28px;
+}
+.cta > ul > li {
+    display: inline;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.cta > ul > li > a {
+    text-decoration: none;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 25px;
+    transition: 0.15s ease-in-out;
+}
+.cta > ul > li:nth-child(1) > a {
+    background-color: #2fbcb2;
+    color: #fff;
+}
+.cta > ul > li:nth-child(1) > a:hover {
+    background-color: #33ccc2;
+}
+.cta > ul > li:nth-child(2) > a {
+    background-color: rgb(251, 251, 251);
+    color: rgb(72, 73, 95);
+    border: 1px solid rgb(217, 219, 222);
+}
+.cta > ul > li:nth-child(2) > a:hover {
+    background-color: rgb(237, 236, 236);
+}
+
+/* About page */
+.support {
+    background-color: rgb(247, 249, 251);
+    padding-top: 15px;
+}
+.support > h4 {
+    font-weight: 300;
+    font-size: 18px;
+    color: #53546a;
+}
+.support > div > img {
+    max-width: 100px;
+}
